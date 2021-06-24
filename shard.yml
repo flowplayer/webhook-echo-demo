@@ -1,0 +1,17 @@
+name: hook-echo
+version: 0.1.0
+
+authors:
+  - Benjamin Clos <benjamin.clos@gmail.com>
+
+targets:
+  hook-echo:
+    main: src/hook-echo.cr
+
+crystal: 1.0.0
+
+license: MIT
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
